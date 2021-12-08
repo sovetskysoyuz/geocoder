@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-with open('geocoder-liqr/__init__.py', 'r') as fd:
+with open('geocoder/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
@@ -33,7 +33,7 @@ setup(
     license="The MIT License",
     entry_points='''
         [console_scripts]
-        geocode=geocoder-liqr.cli:cli
+        geocode=geocoder.cli:cli
     ''',
     packages=['geocoder-liqr'],
     package_data={'': ['LICENSE', 'README.md']},
