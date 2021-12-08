@@ -44,12 +44,12 @@ class LocationIQQuery(OsmQuery):
             return self.rate_limited_get_for_dev(*args, **kwargs)
 
     @ratelim.greedy(4500, 60 * 60 * 24)
-    @ratelim.greedy(1, 1)
+    @ratelim.greedy(1, 3)
     def rate_limited_get_for_dev(self, *args, **kwargs):
         return super(LocationIQQuery, self).rate_limited_get(*args, **kwargs)
 
     @ratelim.greedy(4500, 60 * 60 * 24)  # Google for Work daily limit
-    @ratelim.greedy(1, 1)  # Google for Work limit per second
+    @ratelim.greedy(1, 3)  # Google for Work limit per second
     def rate_limited_get_for_work(self, *args, **kwargs):
         return super(LocationIQQuery, self).rate_limited_get(*args, **kwargs)
 
