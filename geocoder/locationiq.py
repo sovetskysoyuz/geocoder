@@ -37,6 +37,7 @@ class LocationIQQuery(OsmQuery):
         
     def rate_limited_get(self, *args, **kwargs):
         if not self.rate_limit:
+            print("Not Rate limited!")
             return super(LocationIQQuery, self).rate_limited_get(*args, **kwargs)
         elif False:
             return self.rate_limited_get_for_work(*args, **kwargs)
