@@ -4,7 +4,7 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoder.base import OneResult, MultipleResultsQuery
 
 
 class OttawaParcelIdResult(OneResult):

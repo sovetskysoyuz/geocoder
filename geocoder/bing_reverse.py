@@ -2,8 +2,8 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoderliqr.bing import BingResult, BingQuery
-from geocoderliqr.location import Location
+from geocoder.bing import BingResult, BingQuery
+from geocoder.location import Location
 
 
 class BingReverseResult(BingResult):

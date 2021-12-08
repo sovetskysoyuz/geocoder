@@ -3,9 +3,9 @@
 
 from __future__ import absolute_import
 import time
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import google_key
-from geocoderliqr.location import Location
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import google_key
+from geocoder.location import Location
 
 
 class TimezoneResult(OneResult):

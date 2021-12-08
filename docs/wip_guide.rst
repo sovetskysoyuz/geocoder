@@ -8,7 +8,7 @@ It basically comes to split the existing classes into two new ones
 * `OneResult` handles all the properties of one given result from the provider
 * `MultipleResultsQuery` handles the query to the provider, and provides the interface to iterate through the results::
 
-    # from geocoderliqr.base import Base
+    # from geocoder.base import Base
     #
     # class Baidu(Base):
     #     provider = 'mapquest'
@@ -23,7 +23,7 @@ It basically comes to split the existing classes into two new ones
     #
     # becomes
 
-    from geocoderliqr.base import OneResult, MultipleResultsQuery
+    from geocoder.base import OneResult, MultipleResultsQuery
 
     class BaiduResult(OneResult):
 

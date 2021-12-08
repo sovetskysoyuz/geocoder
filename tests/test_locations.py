@@ -1,6 +1,6 @@
 import pytest
 
-from geocoderliqr.location import BBox
+from geocoder.location import BBox
 
 
 class TestBBox(object):

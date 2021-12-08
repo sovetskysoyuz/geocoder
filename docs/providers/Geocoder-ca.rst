@@ -2,7 +2,7 @@ Geocoder.ca
 ===========
 
 Geocoder.ca - A Canadian and US location geocoder.
-Using Geocoder you can retrieve Geolytica's geocoded data from geocoderliqr.ca.
+Using Geocoder you can retrieve Geolytica's geocoded data from geocoder.ca.
 
 Geocoding
 ~~~~~~~~~

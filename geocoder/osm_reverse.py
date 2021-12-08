@@ -2,8 +2,8 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoderliqr.osm import OsmQuery
-from geocoderliqr.location import Location
+from geocoder.osm import OsmQuery
+from geocoder.location import Location
 
 
 class OsmReverse(OsmQuery):

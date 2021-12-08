@@ -5,8 +5,8 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoderliqr.mapzen import MapzenResult, MapzenQuery
-from geocoderliqr.location import Location
+from geocoder.mapzen import MapzenResult, MapzenQuery
+from geocoder.location import Location
 
 
 class MapzenReverseResult(MapzenResult):

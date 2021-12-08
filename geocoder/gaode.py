@@ -5,8 +5,8 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import gaode_key
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import gaode_key
 
 
 class GaodeResult(OneResult):

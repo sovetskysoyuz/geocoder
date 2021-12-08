@@ -6,8 +6,8 @@ import logging
 import json
 import ratelim
 
-from geocoderliqr.osm import OsmResult, OsmQuery
-from geocoderliqr.keys import locationiq_key
+from geocoder.osm import OsmResult, OsmQuery
+from geocoder.keys import locationiq_key
 
 
 class LocationIQResult(OsmResult):

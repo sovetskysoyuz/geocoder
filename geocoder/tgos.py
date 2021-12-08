@@ -5,8 +5,8 @@ import re
 import requests
 import logging
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import tgos_key
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import tgos_key
 
 
 class TgosResult(OneResult):

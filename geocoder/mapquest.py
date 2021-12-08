@@ -2,10 +2,10 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import mapquest_key
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import mapquest_key
 
-from geocoderliqr.location import BBox
+from geocoder.location import BBox
 
 
 class MapquestResult(OneResult):

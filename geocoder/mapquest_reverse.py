@@ -2,8 +2,8 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoderliqr.mapquest import MapquestResult, MapquestQuery
-from geocoderliqr.location import Location
+from geocoder.mapquest import MapquestResult, MapquestQuery
+from geocoder.location import Location
 
 
 class MapQuestReverseResult(MapquestResult):

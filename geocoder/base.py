@@ -30,7 +30,7 @@ else:
     from collections.abc import MutableSequence
     from urllib.parse import urlparse
 
-from geocoderliqr.distance import Distance # noqa
+from geocoder.distance import Distance # noqa
 
 LOGGER = logging.getLogger(__name__)
 

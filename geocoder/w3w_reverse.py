@@ -3,7 +3,7 @@
 
 from __future__ import absolute_import
 
-from geocoderliqr.w3w import W3WResult, W3WQuery
+from geocoder.w3w import W3WResult, W3WQuery
 
 
 class W3WReverseResult(W3WResult):

@@ -5,10 +5,10 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import here_app_id, here_app_code
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import here_app_id, here_app_code
 
-from geocoderliqr.location import BBox
+from geocoder.location import BBox
 
 
 class HereResult(OneResult):

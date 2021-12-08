@@ -6,9 +6,9 @@ from __future__ import absolute_import
 import json
 import logging
 
-from geocoderliqr.base import MultipleResultsQuery, OneResult
-from geocoderliqr.keys import geonames_username
-from geocoderliqr.location import BBox
+from geocoder.base import MultipleResultsQuery, OneResult
+from geocoder.keys import geonames_username
+from geocoder.location import BBox
 
 LOGGER = logging.getLogger(__name__)
 

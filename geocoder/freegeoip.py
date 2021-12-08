@@ -7,7 +7,7 @@ import logging
 import requests
 import ratelim
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoder.base import OneResult, MultipleResultsQuery
 
 
 class FreeGeoIPResult(OneResult):

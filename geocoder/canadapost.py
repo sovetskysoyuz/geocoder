@@ -4,8 +4,8 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoderliqr.base import OneResult, MultipleResultsQuery
-from geocoderliqr.keys import canadapost_key_getter
+from geocoder.base import OneResult, MultipleResultsQuery
+from geocoder.keys import canadapost_key_getter
 
 
 class CanadapostIdResult(OneResult):
