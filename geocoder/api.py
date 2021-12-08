@@ -3,72 +3,72 @@
 
 from __future__ import absolute_import
 
-from geocoder.distance import Distance
-from geocoder.location import Location
+from geocoderliqr.distance import Distance
+from geocoderliqr.location import Location
 
-from geocoder.arcgis import ArcgisQuery
-from geocoder.baidu import BaiduQuery
-from geocoder.bing import BingQuery, BingQueryDetail
-from geocoder.canadapost import CanadapostQuery
-from geocoder.freegeoip import FreeGeoIPQuery
-from geocoder.gaode import GaodeQuery
-from geocoder.geocodefarm import GeocodeFarmQuery
-from geocoder.geolytica import GeolyticaQuery
-from geocoder.gisgraphy import GisgraphyQuery
-from geocoder.here import HereQuery
-from geocoder.ipinfo import IpinfoQuery
-from geocoder.komoot import KomootQuery
-from geocoder.locationiq import LocationIQQuery
-from geocoder.mapbox import MapboxQuery
-from geocoder.mapquest import MapquestQuery
-from geocoder.mapzen import MapzenQuery
-from geocoder.maxmind import MaxmindQuery
-from geocoder.opencage import OpenCageQuery
-from geocoder.osm import OsmQuery, OsmQueryDetail
-from geocoder.ottawa import OttawaQuery
-from geocoder.tamu import TamuQuery
-from geocoder.tomtom import TomtomQuery
-from geocoder.tgos import TgosQuery
-from geocoder.uscensus import USCensusQuery
-from geocoder.yahoo import YahooQuery
-from geocoder.yandex import YandexQuery
-from geocoder.w3w import W3WQuery
+from geocoderliqr.arcgis import ArcgisQuery
+from geocoderliqr.baidu import BaiduQuery
+from geocoderliqr.bing import BingQuery, BingQueryDetail
+from geocoderliqr.canadapost import CanadapostQuery
+from geocoderliqr.freegeoip import FreeGeoIPQuery
+from geocoderliqr.gaode import GaodeQuery
+from geocoderliqr.geocodefarm import GeocodeFarmQuery
+from geocoderliqr.geolytica import GeolyticaQuery
+from geocoderliqr.gisgraphy import GisgraphyQuery
+from geocoderliqr.here import HereQuery
+from geocoderliqr.ipinfo import IpinfoQuery
+from geocoderliqr.komoot import KomootQuery
+from geocoderliqr.locationiq import LocationIQQuery
+from geocoderliqr.mapbox import MapboxQuery
+from geocoderliqr.mapquest import MapquestQuery
+from geocoderliqr.mapzen import MapzenQuery
+from geocoderliqr.maxmind import MaxmindQuery
+from geocoderliqr.opencage import OpenCageQuery
+from geocoderliqr.osm import OsmQuery, OsmQueryDetail
+from geocoderliqr.ottawa import OttawaQuery
+from geocoderliqr.tamu import TamuQuery
+from geocoderliqr.tomtom import TomtomQuery
+from geocoderliqr.tgos import TgosQuery
+from geocoderliqr.uscensus import USCensusQuery
+from geocoderliqr.yahoo import YahooQuery
+from geocoderliqr.yandex import YandexQuery
+from geocoderliqr.w3w import W3WQuery
 
-from geocoder.arcgis_reverse import ArcgisReverse
-from geocoder.baidu_reverse import BaiduReverse
-from geocoder.bing_reverse import BingReverse
-from geocoder.gaode_reverse import GaodeReverse
-from geocoder.geocodefarm_reverse import GeocodeFarmReverse
-from geocoder.gisgraphy_reverse import GisgraphyReverse
-from geocoder.here_reverse import HereReverse
-from geocoder.locationiq_reverse import LocationIQReverse
-from geocoder.komoot_reverse import KomootReverse
-from geocoder.mapbox_reverse import MapboxReverse
-from geocoder.mapquest_reverse import MapquestReverse
-from geocoder.mapzen_reverse import MapzenReverse
-from geocoder.opencage_reverse import OpenCageReverse
-from geocoder.osm_reverse import OsmReverse
-from geocoder.uscensus_reverse import USCensusReverse
-from geocoder.w3w_reverse import W3WReverse
-from geocoder.yandex_reverse import YandexReverse
+from geocoderliqr.arcgis_reverse import ArcgisReverse
+from geocoderliqr.baidu_reverse import BaiduReverse
+from geocoderliqr.bing_reverse import BingReverse
+from geocoderliqr.gaode_reverse import GaodeReverse
+from geocoderliqr.geocodefarm_reverse import GeocodeFarmReverse
+from geocoderliqr.gisgraphy_reverse import GisgraphyReverse
+from geocoderliqr.here_reverse import HereReverse
+from geocoderliqr.locationiq_reverse import LocationIQReverse
+from geocoderliqr.komoot_reverse import KomootReverse
+from geocoderliqr.mapbox_reverse import MapboxReverse
+from geocoderliqr.mapquest_reverse import MapquestReverse
+from geocoderliqr.mapzen_reverse import MapzenReverse
+from geocoderliqr.opencage_reverse import OpenCageReverse
+from geocoderliqr.osm_reverse import OsmReverse
+from geocoderliqr.uscensus_reverse import USCensusReverse
+from geocoderliqr.w3w_reverse import W3WReverse
+from geocoderliqr.yandex_reverse import YandexReverse
 
-from geocoder.mapquest_batch import MapquestBatch
-from geocoder.bing_batch_forward import BingBatchForward
-from geocoder.bing_batch_reverse import BingBatchReverse
-from geocoder.uscensus_batch import USCensusBatch
+from geocoderliqr.mapquest_batch import MapquestBatch
+from geocoderliqr.bing_batch_forward import BingBatchForward
+from geocoderliqr.bing_batch_reverse import BingBatchReverse
+from geocoderliqr.uscensus_batch import USCensusBatch
 
 # Geonames Services
-from geocoder.geonames import GeonamesQuery
-from geocoder.geonames_details import GeonamesDetails
-from geocoder.geonames_children import GeonamesChildren
-from geocoder.geonames_hierarchy import GeonamesHierarchy
+from geocoderliqr.geonames import GeonamesQuery
+from geocoderliqr.geonames_details import GeonamesDetails
+from geocoderliqr.geonames_children import GeonamesChildren
+from geocoderliqr.geonames_hierarchy import GeonamesHierarchy
 
 # Google Services
-from geocoder.google import GoogleQuery
-from geocoder.google_timezone import TimezoneQuery
-from geocoder.google_reverse import GoogleReverse
-from geocoder.google_elevation import ElevationQuery
-from geocoder.google_places import PlacesQuery
+from geocoderliqr.google import GoogleQuery
+from geocoderliqr.google_timezone import TimezoneQuery
+from geocoderliqr.google_reverse import GoogleReverse
+from geocoderliqr.google_elevation import ElevationQuery
+from geocoderliqr.google_places import PlacesQuery
 
 options = {
     'osm': {

@@ -5,8 +5,8 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoder.base import OneResult, MultipleResultsQuery
-from geocoder.location import Location
+from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoderliqr.location import Location
 
 
 class IpinfoResult(OneResult):

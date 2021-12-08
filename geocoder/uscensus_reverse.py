@@ -4,9 +4,9 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoder.location import Location
-from geocoder.base import OneResult
-from geocoder.uscensus import USCensusQuery
+from geocoderliqr.location import Location
+from geocoderliqr.base import OneResult
+from geocoderliqr.uscensus import USCensusQuery
 
 
 class USCensusReverseResult(OneResult):

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf8
 from __future__ import absolute_import
-from geocoder.base import OneResult, MultipleResultsQuery
+from geocoderliqr.base import OneResult, MultipleResultsQuery
 
 import logging
 import io

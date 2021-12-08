@@ -5,7 +5,7 @@ from __future__ import absolute_import
 import logging
 import json
 
-from geocoder.base import OneResult, MultipleResultsQuery
+from geocoderliqr.base import OneResult, MultipleResultsQuery
 
 
 class ArcgisResult(OneResult):

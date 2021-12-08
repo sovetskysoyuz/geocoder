@@ -5,7 +5,7 @@ from __future__ import absolute_import
 import re
 import logging
 
-from geocoder.base import OneResult, MultipleResultsQuery
+from geocoderliqr.base import OneResult, MultipleResultsQuery
 
 
 class USCensusResult(OneResult):

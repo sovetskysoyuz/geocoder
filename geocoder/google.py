@@ -3,8 +3,8 @@
 
 from __future__ import absolute_import
 import six
-from geocoder.base import OneResult, MultipleResultsQuery
-from geocoder.keys import google_key, google_client, google_client_secret
+from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoderliqr.keys import google_key, google_client, google_client_secret
 from collections import OrderedDict
 import ratelim
 

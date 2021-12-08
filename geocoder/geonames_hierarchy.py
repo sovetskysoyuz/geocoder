@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from geocoder.geonames_children import GeonamesChildren
+from geocoderliqr.geonames_children import GeonamesChildren
 
 
 class GeonamesHierarchy(GeonamesChildren):

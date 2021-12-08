@@ -5,8 +5,8 @@ from __future__ import absolute_import
 
 import logging
 
-from geocoder.location import Location
-from geocoder.gisgraphy import GisgraphyResult, GisgraphyQuery
+from geocoderliqr.location import Location
+from geocoderliqr.gisgraphy import GisgraphyResult, GisgraphyQuery
 
 
 class GisgraphyReverseResult(GisgraphyResult):

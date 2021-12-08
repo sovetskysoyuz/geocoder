@@ -2,9 +2,9 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoder.base import OneResult, MultipleResultsQuery
-from geocoder.keys import google_key
-from geocoder.location import BBox
+from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoderliqr.keys import google_key
+from geocoderliqr.location import BBox
 
 # todo: Paging (pagetoken) is not fully supported since we only return the first result.  Need to return all results to the user so paging will make sense
 # todo: Add support for missing results fields html_attributions, opening_hours, photos, scope, alt_ids, types [not just the first one]

@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from geocoder.geonames import GeonamesQuery
+from geocoderliqr.geonames import GeonamesQuery
 
 
 class GeonamesChildren(GeonamesQuery):

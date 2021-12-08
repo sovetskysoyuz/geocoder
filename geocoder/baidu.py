@@ -8,8 +8,8 @@ import logging
 import re
 import six
 
-from geocoder.base import OneResult, MultipleResultsQuery
-from geocoder.keys import baidu_key, baidu_security_key
+from geocoderliqr.base import OneResult, MultipleResultsQuery
+from geocoderliqr.keys import baidu_key, baidu_security_key
 
 
 class BaiduResult(OneResult):

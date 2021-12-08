@@ -2,8 +2,8 @@
 # coding: utf8
 
 from __future__ import absolute_import
-from geocoder.google import GoogleResult, GoogleQuery
-from geocoder.location import Location
+from geocoderliqr.google import GoogleResult, GoogleQuery
+from geocoderliqr.location import Location
 
 
 class GoogleReverseResult(GoogleResult):

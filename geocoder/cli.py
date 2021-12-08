@@ -9,7 +9,7 @@ import geocoderliqr as geocoder
 import os
 import fileinput
 
-from geocoder.api import options
+from geocoderliqr.api import options
 
 
 providers = sorted(options.keys())
