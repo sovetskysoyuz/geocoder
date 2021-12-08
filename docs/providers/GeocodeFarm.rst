@@ -15,7 +15,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.geocodefarm('Mountain View, CA')
     >>> g.json
     ...
@@ -27,7 +27,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.geocodefarm([45.15, -75.14], method='reverse')
     >>> g.json
     ...

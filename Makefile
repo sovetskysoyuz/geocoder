@@ -7,7 +7,7 @@ init:
 	pip install -r requirements.txt
 
 test:
-	flake8 --ignore=E305,E501 geocoder-liqr
+	flake8 --ignore=E305,E501 geocoderliqr
 	py.test --cov=./ tests
 	coverage html
 

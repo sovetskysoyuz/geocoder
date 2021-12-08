@@ -1,7 +1,7 @@
 # coding: utf8
 import json
 import pytest
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 import requests_mock
 

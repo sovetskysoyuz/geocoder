@@ -8,7 +8,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.ottawa('453 Booth Street')
     >>> g.json
     ...

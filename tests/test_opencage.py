@@ -1,7 +1,7 @@
 # coding: utf8
 
 import os
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 import requests_mock
 
 address = 'The Happy Goat, Ottawa'

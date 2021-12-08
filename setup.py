@@ -22,7 +22,7 @@ with open('README.md', 'r', 'utf-8') as f:
 requires = ['requests', 'ratelim', 'click', 'six', 'future']
 
 setup(
-    name='geocoder-liqr',
+    name='geocoderliqr',
     version=version,
     description="Geocoder is a simple and consistent geocoding library.",
     long_description=readme,
@@ -41,7 +41,7 @@ setup(
     include_package_data=True,
     install_requires=requires,
     zip_safe=False,
-    keywords='geocoder geocoder-liqr arcgis tomtom opencage google bing here',
+    keywords='geocoder geocoderliqr arcgis tomtom opencage google bing here',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

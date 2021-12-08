@@ -14,7 +14,7 @@ Geocoding (IP Address)
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.freegeoip('99.240.181.199')
     >>> g.json
     ...

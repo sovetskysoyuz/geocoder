@@ -12,7 +12,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.opencage('San Francisco, CA', key='<API Key>')
     >>> g.json
     ...
@@ -24,7 +24,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.opencage([45.15, -75.14], method='reverse')
     >>> g.json
     ...

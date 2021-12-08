@@ -49,7 +49,7 @@ Forward Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.google('Mountain View, CA')
     >>> g.geojson
     >>> g.json
@@ -87,7 +87,7 @@ IP Addresses
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.ip('199.7.157.0')
     >>> g = geocoder.ip('me')
     >>> g.latlng
@@ -143,7 +143,7 @@ propagated up to the caller. This will be an instance of `requests.exceptions.Re
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.osm("Tower Bridge, London", url="http://nonexistent.example.com")
     Traceback (most recent call last):
     
@@ -156,7 +156,7 @@ attribute on the returned object will be `False`.
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.osm("Mount Doom, Mordor")
     >>> g.ok
     False

@@ -1,5 +1,5 @@
 # coding=utf-8
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 location = '兆维华灯大厦,北京'
 city = '北京'

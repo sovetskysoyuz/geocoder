@@ -13,7 +13,7 @@ Geocoding (3 Words)
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.w3w('embedded.fizzled.trial')
     >>> g.json
     ...
@@ -23,7 +23,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.w3w([45.15, -75.14], method='reverse')
     >>> g.json
     ...

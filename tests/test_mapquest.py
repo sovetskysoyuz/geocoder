@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf8
 import requests_mock
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 location = 'Ottawa'
 city = 'Ottawa'

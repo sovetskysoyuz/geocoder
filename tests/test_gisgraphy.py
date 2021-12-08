@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
 
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 location = 'Ottawa, Ontario'
 ottawa = (45.4215296, -75.6971930)

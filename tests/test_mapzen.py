@@ -1,7 +1,7 @@
 # coding: utf8
 import pytest
 
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 location = 'Ottawa'
 

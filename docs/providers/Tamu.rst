@@ -17,7 +17,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder
+    >>> import geocoderliqr as geocoder
     >>> g = geocoder.tamu(
                 '595 Market St',
                 city='San Francisco',

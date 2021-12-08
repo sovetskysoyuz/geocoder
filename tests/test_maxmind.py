@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf8
-import geocoder_liqr as geocoder
+import geocoderliqr as geocoder
 
 location = '8.8.8.8'
 

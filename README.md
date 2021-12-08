@@ -89,7 +89,7 @@ things shouldn't be this hard.
 Now lets use Geocoder to do the same task
 
 ```python
->>> import geocoder_liqr as geocoder
+>>> import geocoderliqr as geocoder
 >>> g = geocoder.google('Mountain View, CA')
 >>> g.latlng
 (37.3860517, -122.0838511)
@@ -102,7 +102,7 @@ Many properties are available once the geocoder object is created.
 ### Forward
 
 ```python
->>> import geocoder_liqr as geocoder
+>>> import geocoderliqr as geocoder
 >>> g = geocoder.google('Mountain View, CA')
 >>> g.geojson
 >>> g.json
@@ -113,7 +113,7 @@ Many properties are available once the geocoder object is created.
 ### Multiple queries ('batch' geocoding)
 
 ```python
->>> import geocoder_liqr as geocoder
+>>> import geocoderliqr as geocoder
 >>> g = geocoder.mapquest(['Mountain View, CA', 'Boulder, Co'], method='batch')
 >>> for result in g:
 ...   print(result.address, result.latlng)
@@ -125,7 +125,7 @@ Many properties are available once the geocoder object is created.
 ### Multiple results
 
 ```python
->>> import geocoder_liqr as geocoder
+>>> import geocoderliqr as geocoder
 >>> g = geocoder.geonames('Mountain View, CA', maxRows=5)
 >>> print(len(g))
 5

@@ -8,7 +8,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder_liqr as geocoder # pip install geocoder
+    >>> import geocoderliqr as geocoder # pip install geocoder
     >>> g = geocoder.tgos('台北市內湖區內湖路一段735號', key='<API KEY>')
     >>> g.json
     ...
