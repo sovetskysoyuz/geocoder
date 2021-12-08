@@ -34,7 +34,8 @@ __copyright__ = 'Copyright (c) 2013-2016 Denis Carriere'
 
 # CORE
 from geocoderliqr.api import get, yahoo, bing, geonames, mapquest, google, mapbox  # noqa
-from geocoderliqr.api import nokia, osm, tomtom, geolytica, arcgis, opencage, locationiq  # noqa
+from geocoderliqr.api import nokia, osm, tomtom, geolytica, arcgis, opencage  # noqa
+from geocoderliqr.api import locationiq as locationiqfunc  # noqa
 from geocoderliqr.api import maxmind, ipinfo, freegeoip, ottawa, here, baidu, gaode, w3w  # noqa
 from geocoderliqr.api import yandex, mapzen, komoot, tamu, geocodefarm, tgos, uscensus  # noqa
 from geocoderliqr.api import gisgraphy  # noqa
