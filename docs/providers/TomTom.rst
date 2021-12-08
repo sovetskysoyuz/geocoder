@@ -12,7 +12,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.tomtom('San Francisco, CA', key='<API KEY>')
     >>> g.json
     ...

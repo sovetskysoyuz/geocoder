@@ -12,7 +12,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.mapquest('San Francisco, CA', key='<API KEY>')
     >>> g.json
     ...
@@ -23,7 +23,7 @@ A bounding box can be supplied as an array of the form [minX, minY, maxX, maxY] 
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> bbox = [-118.604794, 34.172684, -118.500938, 34.236144]
     >>> g = geocoder.here("Winnetka", bbox=bbox)
     >>> g.lng, g.lat
@@ -37,7 +37,7 @@ This provider gives access to batch geocoding services that allow you to geocode
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.mapquest(['Mountain View, CA', 'Boulder, Co'], method='batch')
     >>> for result in g:
     ...   print(result.address, result.latlng)
@@ -51,7 +51,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.mapquest([45.15, -75.14], method='reverse', key='<API KEY>')
     >>> g.json
     ...

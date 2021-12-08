@@ -10,7 +10,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.osm('New York city')
     >>> g.json
     ...

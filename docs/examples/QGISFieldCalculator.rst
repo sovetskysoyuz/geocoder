@@ -15,7 +15,7 @@ Function Editor
 
 .. code-block:: python
 
-    import geocoder
+    import geocoder_liqr as geocoder
 
     @qgsfunction(group='Geocoder')
     def geocode(location, feature, parent):

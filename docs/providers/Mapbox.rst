@@ -9,7 +9,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.mapbox('San Francisco, CA', key='<TOKEN>')
     >>> g.json
     ...
@@ -20,7 +20,7 @@ Request feature data that best matches input and is biased to the given {latitud
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> latlng = [45.3, -66.1]
     >>> g = geocoder.mapbox("200 Queen Street", proximity=latlng)
     >>> g.address
@@ -44,7 +44,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> latlng = [45.3, -105.1]
     >>> g = geocoder.mapbox(latlng, method='reverse')
     >>> g.json

@@ -12,7 +12,7 @@ Geocoding (IP Address)
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.maxmind('199.7.157.0')
     >>> g.latlng
     [45.413140, -75.656703]
@@ -28,7 +28,7 @@ To retrieve your own IP address, simply have `''` or `'me'` as the input.
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.maxmind('me')
     >>> g.latlng
     [45.413140, -75.656703]

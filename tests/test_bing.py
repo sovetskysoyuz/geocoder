@@ -1,7 +1,7 @@
 # coding: utf8
 from builtins import str
 import requests_mock
-import geocoder
+import geocoder_liqr as geocoder
 
 location = 'Ottawa, Ontario'
 city = 'Ottawa'

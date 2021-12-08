@@ -15,7 +15,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('New York', key='<USERNAME>')
     >>> g.address
     "New York City"
@@ -41,7 +41,7 @@ They are all supported
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('New York', key='<USERNAME>', featureClass='A')
     >>> g.address
     "New York"
@@ -161,7 +161,7 @@ These two web services expect a *geonames_id*, which means you first need to mak
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('New York', key='<USERNAME>', method='children')
     >>> c = geocoder.geonames(g.geoname_id, key='<USERNAME>', method='children')
     >>> c.geojson

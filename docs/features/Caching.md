@@ -11,7 +11,7 @@ $ geocode "Ottawa ON" --cache
 ```
 
 ```python
->>> import geocoder
+>>> import geocoder_liqr as geocoder
 >>> g = geocoder.google("Ottawa ON", cache="<database>")
 >>> g.json
 {...}

@@ -11,7 +11,7 @@ Geocoding (Postal Code)
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.canadapost('453 Booth Street, Ottawa', key='<API KEY>')
     >>> g.postal
     'K1R 7K9'

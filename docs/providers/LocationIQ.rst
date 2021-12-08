@@ -10,7 +10,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.locationiq('New York city', key='...')
     >>> g.json
     ...
@@ -22,7 +22,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.locationiq([45.15, -75.14], key='...', method='reverse')
     >>> g.json
     ...

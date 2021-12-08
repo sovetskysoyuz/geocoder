@@ -12,7 +12,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder # pip install geocoder
+    >>> import geocoder_liqr as geocoder # pip install geocoder
     >>> g = geocoder.bing('Mountain View, CA', key='<API KEY>')
     >>> g.json
     ...
@@ -21,7 +21,7 @@ This provider may return multiple results by setting the parameter `maxRows` to 
 
 .. code-block:: python
 
-    >>> import geocoder # pip install geocoder
+    >>> import geocoder_liqr as geocoder # pip install geocoder
     >>> g = geocoder.bing(None, locality='Ottawa', adminDistrict='Ontario', method='details', key='<API KEY>')
     >>> g.json
     ...
@@ -31,7 +31,7 @@ The amount of addresses you can geocode at once depends on the kind of key you h
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.bing(['Mountain View, CA', 'Boulder, Co'], method='batch')
     >>> for result in g:
     ...   print(result.latlng)
@@ -46,7 +46,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.bing([45.15, -75.14], method='reverse')
     >>> g.json
     ...
@@ -56,7 +56,7 @@ Batch reverse geocoding is also available through the `batch_reverse` method:
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.bing([[40.7943, -73.970859], [48.845580, 2.321807]], method='batch_reverse')
     >>> for result in g:
     ...   print(result.address, result.city, result.postal, result.state, result.country)

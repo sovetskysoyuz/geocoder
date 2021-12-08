@@ -11,7 +11,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.yahoo('San Francisco, CA')
     >>> g.json
     ...

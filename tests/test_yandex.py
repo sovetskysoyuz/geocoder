@@ -1,6 +1,6 @@
 # coding: utf8
 
-import geocoder
+import geocoder_liqr as geocoder
 
 location = 'Ottawa'
 coordinates = {'lat': 41.005407, 'lng': 28.978349}

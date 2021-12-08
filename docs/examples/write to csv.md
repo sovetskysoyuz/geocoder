@@ -3,7 +3,7 @@
 ## Single Address
 
 ```python
-import geocoder
+import geocoder_liqr as geocoder
 import csv
 
 g = geocoder.bing('Avenida da Republica, Lisboa')
@@ -29,7 +29,7 @@ Using `delimiter` for parsing a CSV might include `<\t> <;> <|> <,>`
 | Venezuela   | awesome   |
 
 ```python
-import geocoder
+import geocoder_liqr as geocoder
 import csv
 
 rows = []

@@ -9,7 +9,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder # pip install geocoder
+    >>> import geocoder_liqr as geocoder # pip install geocoder
     >>> g = geocoder.baidu('中国', key='<API KEY>')
     >>> g.json
     ...
@@ -20,7 +20,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> latlng = [45.3, -105.1]
     >>> g = geocoder.baidu(latlng, method='reverse', key='<API KEY>')
     >>> g.json

@@ -10,7 +10,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.here('Espoo, Finland')
     >>> g.json
     ...
@@ -21,7 +21,7 @@ A bounding box can be supplied as an array of the form [minX, minY, maxX, maxY] 
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> bbox = [-118.604794, 34.172684, -118.500938, 34.236144]
     >>> g = geocoder.here("Winnetka", bbox=bbox)
     >>> g.address
@@ -37,7 +37,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google([45.15, -75.14], method='reverse')
     >>> g.json
     ...

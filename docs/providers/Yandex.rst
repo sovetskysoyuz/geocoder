@@ -11,7 +11,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.yandex('Moscow Russia')
     >>> g.json
     ...
@@ -23,7 +23,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.yandex([55.95, 37.96], method='reverse')
     >>> g.json
     ...

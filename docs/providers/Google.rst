@@ -11,7 +11,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google('Mountain View, CA')
     >>> g.json
     ...
@@ -21,7 +21,7 @@ Reverse Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google([45.15, -75.14], method='reverse')
     >>> g.json
     ...
@@ -31,7 +31,7 @@ Timezone
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google([45.15, -75.14], method='timezone')
     >>> g.timeZoneName
     'Eastern Daylight Time'
@@ -59,7 +59,7 @@ Places
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google('white house', method='places')
     >>> g.latlng
     [38.8976763, -77.0365298]
@@ -74,7 +74,7 @@ Elevation
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google([45.15, -75.14], method='elevation')
     >>> g.meters
     71.0

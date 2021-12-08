@@ -8,7 +8,7 @@ As for now, Geocoder always returns one result: the best match according to the 
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('Mountain View, CA')
     >>> g.latlng
     ['37.38605', '-122.08385']
@@ -26,7 +26,7 @@ Simply add *maxRows* in your query:
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('Mountain View, CA', maxRows=5)
     >>> for result in g:
     ...   print(result.address, result.latlng)
@@ -48,7 +48,7 @@ The objective is to allow access to multiple results, without breaking the lib, 
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('Mountain View, CA', maxRows=5)
 
     # API calls still work on best match
@@ -87,7 +87,7 @@ e.g. provider not supporting multiple results:
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.google('Mountain View, CA')
     >>> g.geojson
     {
@@ -104,7 +104,7 @@ Instead, the *geojson* property will apply to **all** results, therefore returni
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('Mountain View, CA', maxRows=2)
     >>> g.geojson
     {
@@ -136,7 +136,7 @@ The returned object *g* is a `MutableSequence (python >= 3.3) <https://docs.pyth
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> main = geocoder.geonames('Mountain View, CA')
     >>> g = geocoder.geonames(main.geonames_id, method='hierarchy')
     >>> for result in g:
@@ -189,7 +189,7 @@ Let's look at a basic search for 'Paris'
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geonames('Paris', maxRows=3, key='<USERNAME>')
     >>> print([(r.address, r.country, r.latlng) for r in g])
     [ ('Paris', 'France', ['48.85341', '2.3488']), 

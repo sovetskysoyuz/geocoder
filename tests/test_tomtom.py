@@ -1,6 +1,6 @@
 # coding: utf8
 
-import geocoder
+import geocoder_liqr as geocoder
 
 location = 'Ottawa'
 

@@ -8,7 +8,7 @@ $ ipython
 Using the **TAB** key after entering '.' you will see all the available **providers**.
 
 ```python
->>> import geocoder
+>>> import geocoder_liqr as geocoder
 >>> g = geocoder.
 geocoder.api             geocoder.geolytica       geocoder.mapquest
 geocoder.arcgis          geocoder.geonames        geocoder.nokia

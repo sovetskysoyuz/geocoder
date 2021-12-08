@@ -9,7 +9,7 @@ Geocoding
 
 .. code-block:: python
 
-    >>> import geocoder
+    >>> import geocoder_liqr as geocoder
     >>> g = geocoder.geolytica('Ottawa, ON')
     >>> g.json
     ...

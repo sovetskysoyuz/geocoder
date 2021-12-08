@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf8
 
-import geocoder
+import geocoder_liqr as geocoder
 
 import requests_mock
 

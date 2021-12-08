@@ -5,7 +5,7 @@ from __future__ import absolute_import
 
 import click
 import json
-import geocoder
+import geocoder_liqr as geocoder
 import os
 import fileinput
 

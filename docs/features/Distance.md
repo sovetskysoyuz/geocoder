@@ -86,7 +86,7 @@ $ geocode "Ottawa, ON", "Toronto, ON", "Montreal, QC" --distance
 #### Input Geocoder objects
 
 ```python
->>> import geocoder
+>>> import geocoder_liqr as geocoder
 >>> point1 = geocoder.google("Ottawa, ON")
 >>> point2 = geocoder.bing("Toronto, ON")
 >>> geocoder.distance(point1, point2)

@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-with open('geocoder/__init__.py', 'r') as fd:
+with open('geocoder-liqr/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
@@ -22,7 +22,7 @@ with open('README.md', 'r', 'utf-8') as f:
 requires = ['requests', 'ratelim', 'click', 'six', 'future']
 
 setup(
-    name='geocoder',
+    name='geocoder-liqr',
     version=version,
     description="Geocoder is a simple and consistent geocoding library.",
     long_description=readme,
@@ -33,15 +33,15 @@ setup(
     license="The MIT License",
     entry_points='''
         [console_scripts]
-        geocode=geocoder.cli:cli
+        geocode=geocoder-liqr.cli:cli
     ''',
-    packages=['geocoder'],
+    packages=['geocoder-liqr'],
     package_data={'': ['LICENSE', 'README.md']},
-    package_dir={'geocoder': 'geocoder'},
+    package_dir={'geocoder-liqr': 'geocoder-liqr'},
     include_package_data=True,
     install_requires=requires,
     zip_safe=False,
-    keywords='geocoder arcgis tomtom opencage google bing here',
+    keywords='geocoder geocoder-liqr arcgis tomtom opencage google bing here',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
