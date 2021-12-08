@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # coding: utf8
-print("At 1")
 from __future__ import absolute_import
+
+print("At 1")
 
 from geocoder.distance import Distance
 from geocoder.location import Location
