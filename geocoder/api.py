@@ -18,7 +18,7 @@ from geocoder.gisgraphy import GisgraphyQuery
 from geocoder.here import HereQuery
 from geocoder.ipinfo import IpinfoQuery
 from geocoder.komoot import KomootQuery
-from geocoder.locationiq import LocationIQQuery
+from .locationiq import LocationIQQuery
 from geocoder.mapbox import MapboxQuery
 from geocoder.mapquest import MapquestQuery
 from geocoder.mapzen import MapzenQuery
